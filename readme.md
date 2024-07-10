@@ -1,6 +1,6 @@
 <div align="center">
 
-# Laravel Deploy
+# Symfony Deploy
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://ngocquyhoang.com)
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://ngocquyhoang.com)
@@ -34,7 +34,7 @@ jobs:
             -   name: Install Packages
                 run: composer install --no-dev
             -   name: Deploy to Server
-                uses: ngocquyhoang/deploy@laravel
+                uses: bishwajitcadhikary/deploy@symfony
                 with:
                     user: user
                     host: host
