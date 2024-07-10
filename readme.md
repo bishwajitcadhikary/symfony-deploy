@@ -34,7 +34,7 @@ jobs:
             -   name: Install Packages
                 run: composer install --no-dev
             -   name: Deploy to Server
-                uses: bishwajitcadhikary/deploy@symfony
+                uses: bishwajitcadhikary/symfony-deploy@v1.0.1
                 with:
                     user: user
                     host: host
