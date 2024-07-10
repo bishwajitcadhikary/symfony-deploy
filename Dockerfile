@@ -1,6 +1,6 @@
 FROM alpine:3.11.3
 
-MAINTAINER Hoang Ngoc Quy <ngocquyhoang3112@gmail.com>
+MAINTAINER Bishwajit Adhikary <bishwajitcadhikary@gmail.com>
 
 RUN apk update \
 	&& apk upgrade \
